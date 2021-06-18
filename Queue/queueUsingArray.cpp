@@ -20,7 +20,7 @@ void enqueue(Queue *q, int x) {
 int dequeue(Queue *q) {
     int x = -1;
     if(q->front > q->rear) 
-        cout<<"Queue is full\n";
+        cout<<"Queue is empty\n";
     else {
         q->front++;
         x = q->Q[q->front];
