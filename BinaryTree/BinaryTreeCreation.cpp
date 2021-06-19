@@ -135,7 +135,6 @@ void postorder(Node* p){
     }
 }
  
- 
 int main() {
  
     createTree();
@@ -151,5 +150,5 @@ int main() {
  
     return 0;
 
-    
+
 }
