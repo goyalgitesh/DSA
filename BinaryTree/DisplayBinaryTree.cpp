@@ -22,7 +22,7 @@ void printLevelOrder(Node *root)
     while (q.empty() == false)
     {
         // nodeCount (queue size) indicates number
-        // of nodes at current lelvel.
+        // of nodes at current level.
         int nodeCount = q.size();
  
         // Dequeue all nodes of current level and
